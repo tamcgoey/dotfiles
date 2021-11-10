@@ -14,3 +14,4 @@ ln -sf ~/dotfiles/.gitignore ~/.gitignore
 
 # chsh
 chsh -s /bin/zsh
+zsh
