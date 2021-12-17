@@ -20,3 +20,6 @@ export PATH=$PATH:$GOPATH/bin
 # git tools
 alias gclean="git branch | egrep -v '(^\*|master)' | xargs git branch -D"
 
+# shadowenv
+eval "$(shadowenv init zsh)"
+
