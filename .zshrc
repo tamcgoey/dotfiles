@@ -15,7 +15,7 @@ export EDITOR=vim
 
 # golang
 export GOPATH="$HOME"
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin:/opt/minidev/bin
 
 # git tools
 alias gclean="git branch | egrep -v '(^\*|master)' | xargs git branch -D"
